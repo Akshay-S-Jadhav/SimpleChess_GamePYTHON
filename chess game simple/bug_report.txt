@@ -1,0 +1,19 @@
+----- 07/12/22 12:16:26 -----
+Traceback (most recent call last):
+  File "D:\SimpleChess_GamePYTHON\chess game simple\gui.py", line 185, in play_as
+    leaving_square = coord2str(event.pos, color)
+  File "D:\SimpleChess_GamePYTHON\chess game simple\gui.py", line 91, in coord2str
+    return chess.FILES[file_index] + chess.RANKS[rank_index]
+IndexError: list index out of range
+
+Playing as WHITE:
+	e2e3 e7e5 d1f3 d7d5 e3e4 d5e4
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+	rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+	rnbqkbnr/pppp1ppp/8/4p3/8/4P3/PPPP1PPP/RNBQKBNR w KQkq e6 0 2
+	rnbqkbnr/pppp1ppp/8/4p3/8/4PQ2/PPPP1PPP/RNB1KBNR b KQkq - 1 2
+	rnbqkbnr/ppp2ppp/8/3pp3/8/4PQ2/PPPP1PPP/RNB1KBNR w KQkq d6 0 3
+	rnbqkbnr/ppp2ppp/8/3pp3/4P3/5Q2/PPPP1PPP/RNB1KBNR b KQkq - 0 3
+	rnbqkbnr/ppp2ppp/8/4p3/4p3/5Q2/PPPP1PPP/RNB1KBNR w KQkq - 0 4
+-----------------------------
+
